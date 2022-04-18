@@ -1,0 +1,288 @@
+*{
+	margin:0;
+	padding:0;
+}
+#header{
+	color:white;
+	background-color:rgba(128, 128, 128,.1);
+	
+	
+}
+
+#header a:hover{
+	      box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2); 
+	
+}
+#header a{
+            text-decoration: none;
+			color:white;
+			
+			float:right;
+	
+}
+#banner a:hover{
+	      box-shadow: 3px 4px 5px 4px rgba(0, 0, 0, 0.2); 
+	
+}
+.card:hover{
+	    box-shadow: 4px 4px 4px 1px rgba(0, 0, 0, 0.2);
+		transform: sacle(1.8);
+	   
+}
+a:hover{
+	text-decoration:none;
+	
+}
+
+
+
+
+
+
+#accounting_div{
+	      background:rgba(19, 20, 23, .5);
+	
+}
+#tesimonial_image{
+	    width:90px;
+		height:90px;
+		border-radius:50%;
+	
+}
+
+ul{
+	   list-style:none;
+	   margin-top:0px;
+	   padding:0px;
+	
+	
+}
+#footer_ul a{
+	       color:white;
+		   display:block;
+		   text-decoration:none;
+	
+}
+#footer_ul h3{
+	       color:white;
+		   
+	
+}
+/*body {
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100%;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+*/
+
+
+  
+#nav-item a:hover{
+    font-size: 18px;
+    text-shadow: 3px;
+	background:none;
+}
+@media(max-width:400px){
+	h1{
+		font-size:30px;
+	}
+	
+	
+}
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.9);
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+  color: #f1f1f1;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+  font-size: 40px;
+  top: 15px;
+  right: 35px;
+  }
+}
+#remote{
+	  background:linear-gradient(to right,#00dbde,#fc00ff);
+	  -webkit-background-clip:text;
+	  -webkit-text-fill-color:transparent;
+	
+}
+
+
+	
+@media(min-width:12px){
+	     .banner_title p{
+			    font-size:25px;
+			    weight:bold;
+			
+		}
+}
+@media(min-width:200px){
+	     .banner_title p{
+			    font-size:30px;
+			    weight:bold;
+			
+		}
+}	
+@media(min-width:300px){
+	     .banner_title p{
+			    font-size:40px;
+			    weight:bold;
+			
+		}
+}	
+@media(min-width:400px){
+	     .banner_title p{
+			    font-size:50px;
+			    weight:bold
+			
+		}
+}	
+@media(min-width:500px){
+	     .banner_title p{
+			    font-size:60px;
+			
+			
+		}
+}		
+@media(min-width:700px){
+	     .banner_title p{
+			    font-size:70px;
+			
+			
+		}	
+	
+}
+@media(min-width:900px){
+	     .banner_title p{
+			    font-size:80px;
+			    weight:bold;
+			
+		}	
+	
+}
+@media(min-width:1098px){
+	     .banner_title p{
+			    font-size:100px;
+			    weight:bold;
+			
+		}
+	
+	
+}
+@media(min-width:200px){
+	     .nextText p{
+			    font-size:12px;
+			
+			
+		}
+}
+@media(min-width:300px){
+	     .nextText p{
+			    font-size:14px;
+			
+			
+		}
+	
+	
+}
+@media(min-width:400px){
+	     .nextText p{
+			    font-size:15px;
+			
+			
+		}
+	
+	
+}
+@media(min-width:500px){
+	     .nextText p{
+			    font-size:20px;
+			
+			
+		}
+	
+	
+}
+#banner col a:hover{
+	      box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2); 
+	
+}
+.jobCatgory h5{
+	 color:black;
+	 font-size:25px;
+	
+}
+#job_div{
+	
+	text-align: center;
+	
+}
+#job_div i{
+	
+	font-size: 34px;
+	color:rgba(245, 81, 182,0.8);
+	
+}
+#header-social-links i{
+	font-size:40px;
+	
+	
+}
+.tesimonialdiv p{
+	color:black;
+	
+}
+.clinth2{
+color:black
+}
